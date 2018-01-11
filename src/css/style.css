@@ -58,6 +58,9 @@ ul {
         padding: 10px 10px 10px 10px;
         margin-top: 5px;
         margin-bottom: 5px; }
+      ul li form input,
+      ul li form textarea {
+        border: 1px solid grey; }
       ul li form button {
         background: #191919;
         color: white;

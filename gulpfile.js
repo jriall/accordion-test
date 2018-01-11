@@ -45,11 +45,6 @@ gulp.task('useref', function(){
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('fonts', function() {
-  return gulp.src('src/fonts/**/*')
-  .pipe(gulp.dest('dist/fonts'));
-});
-
 gulp.task('clean:dist', function() {
   return del.sync('dist');
 });
@@ -60,7 +55,7 @@ return cache.clearAll(callback);
 
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
-    ['sass', 'useref', 'fonts'],
+    ['sass', 'useref'],
     callback
   );
 });
