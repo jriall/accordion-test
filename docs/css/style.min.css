@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");a{text-decoration:none;font-size:20px}a:hover{cursor:pointer}
+body{font-family:"Helvetic Neue",helvetica;min-width:300px;max-width:600px;margin:0 auto;color:black}
+h1{font-family:"Lobster",helvetica;font-weight:400;font-size:2.5em;color:#f29100;text-align:center}
+ul{list-style:none;padding:0}ul .content{overflow:hidden;display:none}ul li{margin:.5em 0}
+ul li p{font-size:20px;height:130px;text-align:center;color:black;padding:0 5px 0 5px}
+ul li p i{margin-right:10px}ul li a.toggle{width:100%;display:block;background:#191919;color:#fefefe;padding:.75em;border-radius:.15em;transition:background .3s ease}
+ul li a.toggle:hover{background:rgba(25,25,25,0.7)}ul li a.toggle i{float:right;margin-right:10px}
+ul li form{text-align:center}ul li form input,ul li form textarea,ul li form button{width:95%;margin:0 auto;padding:10px 10px 10px 10px;margin-top:5px;margin-bottom:5px}
+ul li form input,ul li form textarea{border:1px solid grey}ul li form button{background:#191919;color:white;font-size:20px}
+ul li form button:hover{background:rgba(25,25,25,0.7);cursor:pointer}
