@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+body {
+  font-family: "Helvetic Neue", helvetica;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  color: black;
+}
+
+h1 {
+  font-family: "Lobster", helvetica;
+  font-weight: 400;
+  font-size: 2.5em;
+  color: #f29100;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+
+  .content {
+    overflow: hidden;
+    display: none;
+  }
+
+  li {
+    margin: 0.5em 0;
+    p {
+      font-size: 20px;
+      // margin: 1em 0;
+      height: 130px;
+      text-align: center;
+      color: black;
+      padding: 0 5px 0 5px;
+      i {
+        margin-right: 10px;
+      }
+    }
+    a.toggle {
+      width: 100%;
+      display: block;
+      background: rgba(25, 25, 25, 1);
+      color: #fefefe;
+      padding: 0.75em;
+      border-radius: 0.15em;
+      transition: background 0.3s ease;
+
+      &:hover {
+        background: rgba(25, 25, 25, 0.7);
+      }
+      i {
+        float: right;
+        margin-right: 10px;
+      }
+    }
+    form {
+      text-align: center;
+      input,
+      textarea,
+      button {
+        width: 95%;
+        margin: 0 auto;
+        padding: 10px 10px 10px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      button {
+        background: rgba(25, 25, 25, 1);
+        color: white;
+        font-size: 20px;
+        &:hover {
+          background: rgba(25, 25, 25, 0.7);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
