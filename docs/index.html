@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>A simple jQuery Accordion with unlimited nesting</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <h1>Accordion Menu</h1>
+  <ul class="accordion">
+    <li>
+      <a class="toggle">Item 1<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+      <p class="content"></br /><i class="fa fa-spinner fa-spin fa-fw"></i>Loading...</p>
+    </li>
+    <li>
+      <a class="toggle">Item 2<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+      <p class="content"><br><i class="fa fa-spinner fa-spin fa-fw"></i>Loading...
+      </p>
+    </li>
+    <li>
+      <a class="toggle">Item 3<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+      <p class="content"><i class="fa fa-spinner fa-spin fa-fw"></i>Loading...
+      </p>
+    </li>
+    <li>
+      <a class="toggle">Item 4<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+      <p class="content"><i class="fa fa-spinner fa-spin fa-fw"></i>Loading...
+      </p>
+    </li>
+    <li>
+      <a class="toggle form-toggle">Contact Form<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+      <form class="content" name="htmlform" method="post" action="example.php" id="contact-form">
+        <input type="text" name="name" minlength="2" placeholder="FULL NAME" required>
+        <input type="email" name="email" placeholder="EMAIL" required>
+        <input type="tel" name="tel" placeholder="TELEPHONE NUMBER" required>
+        <textarea name="comments" placeholder="MESSAGE" minlength="10" required></textarea>
+        <button name="send" type="submit" class="submit">SEND</button>
+      </form>
+    </li>
+  </ul>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
